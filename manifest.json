@@ -1,0 +1,10 @@
+{
+    "name": "Quicknote",
+    "version": "1.0.0",
+    "description": "allows you to take quick, convinient notes when you dont have a pen and paper handy!",
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "manifest_version": 3
+
+}
