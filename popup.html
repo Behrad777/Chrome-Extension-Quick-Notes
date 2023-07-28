@@ -5,19 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quick Notes</title>
     <link rel="stylesheet" type="text/css" href="popup.css">
-</head>
-<body>
-    <div class="wrapper">
-    <h1 class="title">Quick Notes</h1>
-        <div class="buttons">
-            <button type="button" class="save">Save</button>
-            <button type="button" class="clear">Clear</button>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <body>
+        <div class="wrapper">
+        <h1 class="title" id="title">Quick Notes</h1>
+            <div class="buttons">
+                <button type="button" class="save" id="saveButton">Save</button>
+                <button type="button" class="clear" id="clearButton">Clear</button>
 
+            </div>
         </div>
-    </div>
-    <div class="notepad">
-        <p>Take a note in the space below and click save</p>
-        <textarea rows="=6"></textarea>
-    </div>
-</body>
+        <div class="notepad">
+            <textarea rows="=6" id="textBox" placeholder="Type Here"></textarea>
+        </div>
+        <div class="savedNote">
+            <p id="SavedNotes"> Saved Notes </p>
+        </div>
+    </body>
+
+<head>
+
+<script src="popup.js"> </script>
 </html>

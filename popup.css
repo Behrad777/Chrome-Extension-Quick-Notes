@@ -1,0 +1,81 @@
+
+
+.save {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    background-color: #1F2939;
+    padding: 5px 5px;
+    font-family: 'Josefin Sans', sans-serif;
+    transition-duration: 0.4s;
+    position: absolute;
+    left: 120px;
+    top: 67%;
+
+
+}
+.save:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }
+
+.clear {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    background-color: #1F2939;
+    padding: 5px 5px;
+    font-family: 'Josefin Sans', sans-serif;
+    transition-duration: 0.4s;
+    position: absolute;
+    right: 120px;
+    top: 67%;
+
+
+
+}
+
+.clear:hover {
+    background-color: #c22828; 
+    color: white;
+  }
+
+body {
+    background-color: #F5F5EF;
+    height: 400px;
+    width: 400px;
+}
+
+p {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    position: absolute;
+    top: 90px;
+
+}
+
+h1{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+
+
+}
+
+textarea {
+    font-family: 'Josefin Sans', sans-serif;
+    width: 395px;
+    height: 200px;
+    position: absolute;
+    top: 15%;
+    font-size: 17px;
+    resize: none;
+    
+}
+
+#SavedNotes {
+    top: 330px;
+    left: 35%;
+
+}
