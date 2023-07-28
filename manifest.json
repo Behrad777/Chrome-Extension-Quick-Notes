@@ -1,10 +1,17 @@
 {
     "name": "Quicknote",
     "version": "1.0.0",
+    "permissions": [
+        "storage",
+        "unlimitedStorage"
+      ],
     "description": "allows you to take quick, convinient notes when you dont have a pen and paper handy!",
     "action": {
         "default_popup": "popup.html"
     },
-    "manifest_version": 3
+    "manifest_version": 3 ,
 
+    "background": {
+        "service_worker": "background.js"
+    }
 }
