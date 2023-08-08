@@ -8,9 +8,9 @@
     padding: 5px 5px;
     font-family: 'Josefin Sans', sans-serif;
     transition-duration: 0.4s;
-    position: absolute;
+    position: relative;
     left: 120px;
-    top: 67%;
+    top: 250px;
 
 
 }
@@ -27,9 +27,9 @@
     padding: 5px 5px;
     font-family: 'Josefin Sans', sans-serif;
     transition-duration: 0.4s;
-    position: absolute;
-    right: 120px;
-    top: 67%;
+    position: relative;
+    left: 150px;
+    top: 250px;
 
 
 
@@ -75,7 +75,24 @@ textarea {
 }
 
 #SavedNotes {
-    top: 330px;
+    top: 350px;
     left: 35%;
+
+}
+
+.addnewnote {
+    position: relative;
+    margin-top: 320px;
+}
+
+.wrapper{
+    height: 100% ;
+}
+
+.remove-note{
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    padding: 2px 3px;
+
 
 }
