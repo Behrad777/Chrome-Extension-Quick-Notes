@@ -93,6 +93,12 @@ textarea {
     font-family: 'Josefin Sans', sans-serif;
     text-align: center;
     padding: 2px 3px;
+    left: 120px;
 
 
 }
+
+.remove-note:hover {
+    background-color: #af4c4c; /* red */
+    color: white;
+  }
